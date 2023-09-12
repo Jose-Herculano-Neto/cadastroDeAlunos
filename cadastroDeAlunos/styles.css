@@ -1,0 +1,29 @@
+body {
+    background-color: red;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+button {
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
